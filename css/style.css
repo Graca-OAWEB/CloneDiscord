@@ -53,16 +53,16 @@ html {
 
 @media screen and (max-width: 900px) {
     ::-webkit-scrollbar {
-        width: 1rem;
+        width: 8px;
     }
 
     ::-webkit-scrollbar-thumb {
-        background: var(--header-bg-color);
-        border-radius: 0.8rem;
+        background: #431bf4;
+        border-radius: 10px;
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        filter: brightness(0.5);
+        background: #411fdd;
     }
 }
 
