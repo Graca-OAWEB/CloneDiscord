@@ -4,7 +4,12 @@
 @media screen and (min-width: 100px) and (max-width: 768px) {
 
     h3 {
-        font-size: 2rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    h1, .title {
+        font-size: 2.5rem;
         line-height: 3rem;
     }
 
@@ -49,7 +54,12 @@
 
 @media screen and (min-width: 769px) and (max-width: 1000px) {
     h3 {
-        font-size: 2rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    h1, .title {
+        font-size: 2.5rem;
         line-height: 3rem;
     }
 
