@@ -8,22 +8,21 @@
     }
 
     .imgDesktop {
-        display: none
+        display: none;
     }
 
     .imgMobile {
-        display: block
+        display: block;
+        max-width: 90vw;
     }
 
-    main {
-        padding: 1rem;
+    header, section, footer {
+        padding: 4rem 1rem;
     }
 
     header {
         text-align: flex-start;
         background-image: url(../images/mobile/HeaderBackground.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     #section-1, #section-2, #section-3, .box-button {
@@ -34,18 +33,16 @@
         text-align: center;
     }
 
-    .box-button {
-        width: 100%;
-        padding: 1rem 2rem;
-        gap: 1rem
-    }
-
-    .btn-white, .btn-black {
+    .box-button, .btn-white, .btn-black {
         width: 100%;
     }
 
+    /*======================= TEXT ======================*/
 
-    /*======================= HEADER ======================*/
+    .box-text,
+    .box-text-title {
+        text-align: start;
+    }
 
 }
 
@@ -55,22 +52,21 @@
     }
 
     .imgDesktop {
-        display: none
+        display: none;
     }
 
     .imgMobile {
-        display: block
+        display: block;
+        width: 70vw;
     }
 
-    main {
-        padding: 1rem;
+    header, section, footer {
+        padding: 4rem;
     }
 
     header {
         text-align: flex-start;
         background-image: url(../images/mobile/HeaderBackground.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     #section-1, #section-2, #section-3, .box-button {
@@ -81,35 +77,35 @@
         text-align: center;
     }
 
-    .box-button {
-        width: 70%;
-        padding: 1rem 2rem;
-        gap: 1rem;
+    .box-button, .btn-white, .btn-black {
+        width: 85%;
     }
 
-    .btn-white, .btn-black {
-        width: 100%;
+    /*======================= TEXT ======================*/
+
+    .box-text,
+    .box-text-title {
+        text-align: start;
     }
+
 
 }
 
 @media screen and (min-width: 1001px) and (max-width: 1500px) {
     .imgDesktop {
-        display: block
+        display: block;
     }
 
     .imgMobile {
-        display: none
+        display: none;
     }
 
     header {
         text-align: center;
         background-image: url(../images/desktop/headerbackground.png);
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
-    main {
+    header, section, footer {
         padding: 4%;
     }
 
@@ -132,29 +128,33 @@
         width: 45vw;
     }
 
+    /*======================= TEXT ======================*/
     .box-text {
+        text-align: start;
         width: 30vw;
+    }
+
+    .box-text-title {
+        width: 50vw;
     }
 
 }
 
 @media screen and (min-width: 1501px) {
     .imgDesktop {
-        display: block
+        display: block;
     }
 
     .imgMobile {
-        display: none
+        display: none;
     }
 
     header {
         text-align: center;
         background-image: url(../images/desktop/headerbackground.png);
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
-    section {
+    header, section, footer {
         padding: 2% 10vw;
     }
 
@@ -177,11 +177,16 @@
         width: 45vw;
     }
 
+    /*======================= TEXT ======================*/
+
     .box-text {
+        text-align: start;
         width: 30vw;
     }
 
+    .box-text-title {
+        width: 50vw;
+    }
 
-    /*======================= HEADER ======================*/
 
 }

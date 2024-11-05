@@ -11,6 +11,8 @@
     cursor: default;
 }
 
+
+
 :root {
     --bg-white: #FFFFFF;
     --color-black: #000000;
@@ -116,9 +118,6 @@ a {
     min-width: auto;
 }
 
-a:hover {
-    transform: scale(1);
-}
 
 h1, h2, h3, h4, h5, h6, p, span {
     text-wrap: balance;
@@ -129,21 +128,26 @@ h1, h2 {
     font-family: "Luckiest Guy", cursive;
     font-weight: 800;
     font-style: normal;
-    text-transform: capitalize;
 }
 
 h3 {
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
     font-style: normal;
-    text-transform: capitalize;
+    line-height: max(30px, 7vh);
+
+}
+
+.title {
+    text-transform: uppercase;
 }
 
 p {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--color-gray)
+    color: var(--color-gray);
+    line-height: max(22px, 3vh);
 }
 
 
@@ -162,7 +166,7 @@ h3 {
 p,
 ul,
 ol,
-li, ul li a, legend {
+li, ul li a, legend, button {
     font-size: clamp(16px, 0.8vw, 5rem);
 }
 
@@ -171,7 +175,6 @@ small,
 caption, input,
 textarea,
 select,
-button,
 label, option {
     font-size: clamp(1rem, 1.3vw, 5rem);
 }
@@ -189,7 +192,8 @@ label, option {
 /*======================= button ======================*/
 .btn-white, .btn-black {
     border-radius: 4rem;
-    padding: 0.5rem 2rem;
+    border: none;
+    padding: 0.8rem 2rem;
 }
 
 .btn-white {
@@ -207,9 +211,12 @@ header {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    height: 80vh;
-    justify-content: space-between;
+    width: 100vw;
+    min-height: 75vh;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
 }
 
 header, #section-4, footer {
@@ -225,12 +232,14 @@ header h1, header p {
 }
 
 .box-button {
-    gap: 1rem
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 2rem;
 }
 
 /*======================= SECTION ======================*/
 
-#section-1, #section-2 {
+#section-2, #section-4 {
     background: var(--bg-gray-light);
 }
 
