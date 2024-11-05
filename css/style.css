@@ -47,8 +47,8 @@ html {
 
 ::selection,
 ::-moz-selection {
-    background-color: var(--bg-dark);
-    color: var(--accent);
+    background-color: #411fdd;
+    color: var(--bg-white);
 }
 
 @media screen and (max-width: 900px) {
