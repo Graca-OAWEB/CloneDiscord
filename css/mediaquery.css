@@ -106,7 +106,7 @@
     }
 
     header, section, footer {
-        padding: 4%;
+        padding: 4% 6%;
     }
 
     #section-1, #section-2, #section-3 {
@@ -131,7 +131,7 @@
     /*======================= TEXT ======================*/
     .box-text {
         text-align: start;
-        width: 30vw;
+        width: 28vw;
     }
 
     .box-text-title {
@@ -155,7 +155,7 @@
     }
 
     header, section, footer {
-        padding: 2% 10vw;
+        padding: 2% 6%;
     }
 
     #section-1, #section-2, #section-3 {
@@ -181,7 +181,7 @@
 
     .box-text {
         text-align: start;
-        width: 30vw;
+        width: 28vw;
     }
 
     .box-text-title {
