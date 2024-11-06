@@ -51,19 +51,17 @@ html {
     color: var(--bg-white);
 }
 
-@media screen and (max-width: 900px) {
-    ::-webkit-scrollbar {
-        width: 8px;
-    }
+::-webkit-scrollbar {
+    width: 8px;
+}
 
-    ::-webkit-scrollbar-thumb {
-        background: #431bf4;
-        border-radius: 10px;
-    }
+::-webkit-scrollbar-thumb {
+    background: #431bf4;
+    border-radius: 10px;
+}
 
-    ::-webkit-scrollbar-thumb:hover {
-        background: #411fdd;
-    }
+::-webkit-scrollbar-thumb:hover {
+    background: #411fdd;
 }
 
 body {
