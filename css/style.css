@@ -53,15 +53,16 @@ html {
 
 ::-webkit-scrollbar {
     width: 8px;
+
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #431bf4;
+    background: #5f51ee;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #411fdd;
+    background: #4021c9;
 }
 
 body {
