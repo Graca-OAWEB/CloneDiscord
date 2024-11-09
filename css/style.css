@@ -45,11 +45,21 @@ html {
     text-transform: uppercase;
 }
 
-::selection,
+::selection {
+    background-color: #411fdd;
+    color: var(--bg-white);
+}
+
 ::-moz-selection {
     background-color: #411fdd;
     color: var(--bg-white);
 }
+
+::-webkit-selection { 
+    background-color: #411fdd;
+    color: var(--bg-white);
+}
+
 
 ::-webkit-scrollbar {
     width: 0.9rem;
